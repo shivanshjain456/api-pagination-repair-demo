@@ -1,0 +1,81 @@
+{
+  "before": {
+    "first": {
+      "items": [
+        {
+          "id": 1,
+          "name": "Demo product 1"
+        },
+        {
+          "id": 2,
+          "name": "Demo product 2"
+        },
+        {
+          "id": 3,
+          "name": "Demo product 3"
+        },
+        {
+          "id": 4,
+          "name": "Demo product 4"
+        }
+      ],
+      "page": "1",
+      "totalPages": 3,
+      "nextPage": "11"
+    },
+    "next": {
+      "items": [],
+      "page": "11",
+      "totalPages": 3,
+      "nextPage": null
+    }
+  },
+  "after": {
+    "first": {
+      "items": [
+        {
+          "id": 1,
+          "name": "Demo product 1"
+        },
+        {
+          "id": 2,
+          "name": "Demo product 2"
+        },
+        {
+          "id": 3,
+          "name": "Demo product 3"
+        },
+        {
+          "id": 4,
+          "name": "Demo product 4"
+        }
+      ],
+      "page": 1,
+      "totalPages": 3,
+      "nextPage": 2
+    },
+    "next": {
+      "items": [
+        {
+          "id": 5,
+          "name": "Demo product 5"
+        },
+        {
+          "id": 6,
+          "name": "Demo product 6"
+        },
+        {
+          "id": 7,
+          "name": "Demo product 7"
+        },
+        {
+          "id": 8,
+          "name": "Demo product 8"
+        }
+      ],
+      "page": 2,
+      "totalPages": 3,
+      "nextPage": 3
+    }
+  }
+}

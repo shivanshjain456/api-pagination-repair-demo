@@ -1,0 +1,20 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> pagination-repair-proof@1.0.0 test
+> node --test test.mjs
+
+✔ Next from page 1 must be page 2, not page 11 (25.138314ms)
+✔ Following Next retrieves every product once without skipping pages (7.890607ms)
+✔ Omitted page defaults to numeric page 1 (1.943923ms)
+✔ Last page stops pagination and returns the final four products (2.18712ms)
+✔ Out-of-range page returns an empty collection and no next page (3.838813ms)
+✔ Invalid page values return 400 rather than silently coercing (7.107396ms)
+✔ Unknown route returns 404 (1.302205ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 181.713865
