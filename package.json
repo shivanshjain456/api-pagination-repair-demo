@@ -1,0 +1,1 @@
+{"name":"pagination-repair-proof","private":true,"version":"1.0.0","type":"module","scripts":{"test":"node --test test.mjs","start":"node after/server.mjs","start:before":"node before/server.mjs"},"engines":{"node":">=20"}}
