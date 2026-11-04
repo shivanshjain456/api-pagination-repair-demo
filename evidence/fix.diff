@@ -1,0 +1,13 @@
+diff --git a/web-repair-proof/before/server.mjs b/web-repair-proof/after/server.mjs
+index 361fcfd..95aef4f 100644
+--- a/web-repair-proof/before/server.mjs
++++ b/web-repair-proof/after/server.mjs
+@@ -14,7 +14,7 @@ export function createServer() {
+       res.writeHead(400, { 'content-type': 'application/json' });
+       return res.end(JSON.stringify({ error: 'page must be a positive safe integer' }));
+     }
+-    const page = rawPage; // BUG: URL query parameters are strings.
++    const page = Number(rawPage);
+     const totalPages = Math.ceil(products.length / pageSize);
+     const items = products.slice((page - 1) * pageSize, page * pageSize);
+     res.writeHead(200, { 'content-type': 'application/json' });
